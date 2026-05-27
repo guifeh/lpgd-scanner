@@ -1,0 +1,19 @@
+# General
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Backend
+backend/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/.playwright/
+backend/.pytest_cache/

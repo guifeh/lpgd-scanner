@@ -80,9 +80,6 @@ export default function NewsletterForm() {
           Ocorreu um erro ao registrar seu email. Tente novamente.
         </p>
       )}
-      <p className="text-[10px] text-slate-500 mt-3">
-        Substitua 'YOUR_FORM_ID' no código pelo seu ID do Formspree.
-      </p>
     </div>
   );
 }

@@ -55,14 +55,14 @@ export default function UrlInput({ onScan, isLoading }: UrlInputProps) {
             }}
             disabled={isLoading}
             placeholder="Digite a URL do site para analisar..."
-            className="flex-1 bg-transparent border-none outline-none text-white placeholder-slate-500 text-lg py-3 px-2 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex-1 min-w-0 bg-transparent border-none outline-none text-white placeholder-slate-500 text-lg py-3 px-2 disabled:opacity-50 disabled:cursor-not-allowed"
           />
 
           {/* Scan Button */}
           <button
             type="submit"
             disabled={isLoading}
-            className="shrink-0 relative flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed overflow-hidden group"
+            className="shrink-0 relative flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold text-sm sm:text-base text-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed overflow-hidden group"
             style={{
               background: isLoading
                 ? 'linear-gradient(135deg, #475569, #334155)'

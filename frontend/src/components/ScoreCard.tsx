@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { ScanReport } from '../types';
+import NewsletterForm from './NewsletterForm';
 
 interface ScoreCardProps {
   report: ScanReport;
@@ -170,6 +171,8 @@ export default function ScoreCard({ report }: ScoreCardProps) {
           <span>Verificado em {formattedDate}</span>
         </div>
       </div>
+
+      <NewsletterForm />
     </div>
   );
 }
